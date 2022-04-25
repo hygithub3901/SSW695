@@ -1,0 +1,8 @@
+runtime: python37
+
+handlers:
+  - url: /
+    script: api.py
+
+skip_files:
+  - .idea/
